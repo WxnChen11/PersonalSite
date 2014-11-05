@@ -292,6 +292,22 @@
 	margin-right:-5px;
 	}
 
+#sciencep {
+	margin-top:50px;
+	position: relative;
+	left:200px;
+	font-size: 14px;
+}
+
+#science-branchpic {
+	margin-top:5px;
+	position:relative;
+	left:200px;
+	width:400px;
+}
+
+
+
 #schd1{
 	position:relative;
 	margin-top:50px;
