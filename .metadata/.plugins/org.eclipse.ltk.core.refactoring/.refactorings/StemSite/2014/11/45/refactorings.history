@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;StemSite/science-branches.png.png&apos; to &apos;science-branches.png&apos;" description="Rename resource &apos;science-branches.png.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="science-branches.png.png" name="science-branches.png" stamp="1415159029421" updateReferences="true"/>
-</session>
