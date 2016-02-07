@@ -30,7 +30,7 @@ var main=function(){
 	
 	$('html,body').animate({
 	scrollTop: $("#tech1").offset().top-25	
-	}, 250);
+	}, 300);
 	});
 	
 	$('#engbut').click(function(e){
@@ -39,7 +39,7 @@ var main=function(){
 	
 	$('html,body').animate({
 	scrollTop: $("#engh1").offset().top-25	
-	}, 250);
+	}, 350);
 	});
 	
 	$('#matbut').click(function(e){
@@ -48,9 +48,45 @@ var main=function(){
 	
 	$('html,body').animate({
 	scrollTop: $("#math1").offset().top-25	
+	}, 400);
+	});
+	
+	$('#topbut').click(function(e){
+	
+	  e.preventDefault();
+	
+	$('html,body').animate({
+	scrollTop: $("#body").offset().top-25	
 	}, 250);
 	});
-
+	
+	$('#topbut1').click(function(e){
+	
+	  e.preventDefault();
+	
+	$('html,body').animate({
+	scrollTop: $("#body").offset().top-25	
+	}, 300);
+	});
+	
+	$('#topbut2').click(function(e){
+	
+	  e.preventDefault();
+	
+	$('html,body').animate({
+	scrollTop: $("#body").offset().top-25	
+	}, 350);
+	});
+	
+	$('#topbut3').click(function(e){
+	
+	  e.preventDefault();
+	
+	$('html,body').animate({
+	scrollTop: $("#body").offset().top-25	
+	}, 400);
+	});
+	
 
 };
 

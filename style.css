@@ -15,7 +15,7 @@
 	position:absolute;
 	top:150px;
 	margin-top:-10px;
-	height: 4000px;
+	height: 2950px;
 	margin-bottom:50px;
 	font-family: 'Exo', sans-serif;
 }
@@ -45,10 +45,17 @@
 
 #hd {
 	position:relavive;
+	margin-left:auto;
+	margin-right:auto;
 	z-index:1;
 }
 
 .title h1{
+
+	margin-top:35px;
+	position:relative;
+	text-align:center;
+	font-size:60px;
 
 }
 
@@ -58,10 +65,10 @@
 }
 
 .title a{
-	float:left;
 	margin-top:35px;
-	margin-left:25px;
 	margin-bottom:50px;
+	margin-left:auto;
+	margin-right:auto;
 	position:relative;
 	font-family: Verdana;
 	color: #C2C2C2;			
@@ -86,20 +93,67 @@
 
 .return{
 
-width:500px;
-height:500px;
+overflow:hidden;
+transition-duration: 0.5s;
+transition-property:transform;
+margin-left:auto;
+margin-right:auto;
+margin-top:400px;
+
+width:100px;
+height:100px;
 display:block;
 background:transparent url("triangle.png") center top no-repeat;
-
+/* position:relative; */
+background-position:center;
 
 
 }
 
-.return a:hover{
+.return:hover{
+
+background-image: url("trianglefill.png");
+transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
 
 
+}
+
+.returnlast{
+
+overflow:hidden;
+transition-duration: 0.5s;
+transition-property:transform;
+margin-left:auto;
+margin-right:auto;
+margin-top:400px;
+
+width:100px;
+height:100px;
+display:block;
+background:transparent url("triangleup.png") center top no-repeat;
+/* position:relative; */
+background-position:center;
 
 
+}
+
+.returnlast:hover{
+
+background-image: url("trianglefillup.png");
+-webkit-animation: mover .3s infinite alternate;
+animation: mover .3s infinite alternate;
+
+
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
 }
 
 #bg {
@@ -110,7 +164,7 @@ background:transparent url("triangle.png") center top no-repeat;
 }
 
 .header div{
-	display:inline;
+	/* display:inline; */
 }
 
 .navigation-bar li{
@@ -120,6 +174,8 @@ background:transparent url("triangle.png") center top no-repeat;
 #head1 {
 	/*background-color:#000000;
 	margin:-10px;*/
+	margin-left:auto;
+	margin-right:auto;
 }
 
 /*Animations from http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/ ANIMATION STYLE 5 FIRST PIC*/
@@ -309,15 +365,66 @@ background:transparent url("triangle.png") center top no-repeat;
 	height:300px;
 	margin-top:50px;
 	margin-right:-50px;
-	align:right;
 	}
 
+#techpic {	
+	 border: 2px solid;
+    border-radius: 10px;	
+	width:430px;
+	height:300px;
+	margin-top:50px;
+	margin-right:-50px;
+	}
+
+#engpic {	
+	 border: 2px solid;
+    border-radius: 10px;	
+	width:430px;
+	height:300px;
+	margin-top:50px;
+	margin-right:-50px;
+	}
+
+#matpic {	
+	 border: 2px solid;
+    border-radius: 10px;	
+	width:430px;
+	height:300px;
+	margin-top:50px;
+	margin-right:-50px;
+	}
+
+	
 #sciencep {
 	margin-top:50px;
 	position: relative;
 	left:0px;
 	font-size: 16px;
 }
+
+#engp {
+	margin-top:50px;
+	position: relative;
+	left:0px;
+	font-size: 16px;
+}
+
+#techp {
+	margin-top:50px;
+	position: relative;
+	left:0px;
+	font-size: 16px;
+}
+
+#matp {
+	margin-top:50px;
+	position: relative;
+	left:0px;
+	font-size: 16px;
+}
+
+
+
 
 #science-branchpic {
 	margin-top:5px;
@@ -335,17 +442,17 @@ background:transparent url("triangle.png") center top no-repeat;
 
 #tech1{
 	position:relative;
-	margin-top:470px;
+	margin-top:50px;
 }
 
 #engh1{
 	position:relative;
-	margin-top:470px;
+	margin-top:50px;
 }
 
 #math1{
 	position:relative;
-	margin-top:450px;
+	margin-top:50px;
 }
 
 #returntop1{
@@ -355,8 +462,13 @@ background:transparent url("triangle.png") center top no-repeat;
 
 #upimg1{
 
-width:100px;
+	width:100px;
 
 }
 
+#credit{
 
+	position:relative;
+	margin-top:50px;
+
+}
