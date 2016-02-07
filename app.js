@@ -41,6 +41,16 @@ var main=function(){
 	scrollTop: $("#engh1").offset().top-25	
 	}, 250);
 	});
+	
+	$('#matbut').click(function(e){
+	
+	  e.preventDefault();
+	
+	$('html,body').animate({
+	scrollTop: $("#math1").offset().top-25	
+	}, 250);
+	});
+
 
 };
 
