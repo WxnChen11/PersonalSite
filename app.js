@@ -20,7 +20,7 @@ var main=function(){
 	  e.preventDefault();
 	
 	$('html,body').animate({
-	scrollTop: $("#schd1").offset().top-25	
+	scrollTop: $("#schd1").offset().top-55	
 	}, 250);
 	});
 	
@@ -29,7 +29,7 @@ var main=function(){
 	  e.preventDefault();
 	
 	$('html,body').animate({
-	scrollTop: $("#tech1").offset().top-25	
+	scrollTop: $("#tech1").offset().top-55
 	}, 300);
 	});
 	
@@ -38,7 +38,7 @@ var main=function(){
 	  e.preventDefault();
 	
 	$('html,body').animate({
-	scrollTop: $("#engh1").offset().top-25	
+	scrollTop: $("#engh1").offset().top-55	
 	}, 350);
 	});
 	
