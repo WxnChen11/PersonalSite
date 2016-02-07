@@ -23,6 +23,24 @@ var main=function(){
 	scrollTop: $("#schd1").offset().top-25	
 	}, 250);
 	});
+	
+	$('#tchbut').click(function(e){
+	
+	  e.preventDefault();
+	
+	$('html,body').animate({
+	scrollTop: $("#tech1").offset().top-25	
+	}, 250);
+	});
+	
+	$('#engbut').click(function(e){
+	
+	  e.preventDefault();
+	
+	$('html,body').animate({
+	scrollTop: $("#engh1").offset().top-25	
+	}, 250);
+	});
 
 };
 

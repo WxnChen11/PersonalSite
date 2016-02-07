@@ -15,7 +15,7 @@
 	position:absolute;
 	top:150px;
 	margin-top:-10px;
-	height: 1500px;
+	height: 4000px;
 	margin-bottom:50px;
 	font-family: 'Exo', sans-serif;
 }
@@ -284,19 +284,21 @@
 	font-family: 'Exo', sans-serif;
 }
 
-#tubepic {
+#tubepic {	
 	 border: 2px solid;
     border-radius: 10px;	
-	width:600px;
+	width:430px;
+	height:300px;
 	margin-top:50px;
-	margin-right:-5px;
+	margin-right:-50px;
+	align:right;
 	}
 
 #sciencep {
 	margin-top:50px;
 	position: relative;
-	left:200px;
-	font-size: 14px;
+	left:0px;
+	font-size: 16px;
 }
 
 #science-branchpic {
@@ -311,6 +313,21 @@
 #schd1{
 	position:relative;
 	margin-top:50px;
+}
+
+#tech1{
+	position:relative;
+	margin-top:470px;
+}
+
+#engh1{
+	position:relative;
+	margin-top:470px;
+}
+
+#math1{
+	position:relative;
+	margin-top:450px;
 }
 
 
