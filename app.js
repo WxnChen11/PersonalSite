@@ -1,6 +1,5 @@
 var pre=function(){
-	
-	//$('#head1').hide();
+
 	$('.pic').hide();
 	$('#head1').animate({ opacity: 0, 'marginTop':"-105px" }, 0);
 	$('#content').hide();
