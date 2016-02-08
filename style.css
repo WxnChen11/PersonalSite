@@ -16,6 +16,7 @@
 	top:150px;
 	margin-top:-10px;
 	height: 2950px;
+	width:1200px;
 	margin-bottom:50px;
 	font-family: 'Exo', sans-serif;
 }
@@ -327,39 +328,43 @@ animation: mover .3s infinite alternate;
 }
 
 #tubepic {	
-	 border: 2px solid;
+	border: 5px solid;
     border-radius: 10px;	
 	width:430px;
 	height:300px;
 	margin-top:50px;
-	margin-right:-50px;
+	float:right;
+	padding:0px;
 	}
 
 #techpic {	
-	 border: 2px solid;
+	border: 5px solid;
     border-radius: 10px;	
 	width:430px;
 	height:300px;
 	margin-top:50px;
-	margin-right:-50px;
+	float:right;
+	padding:0px;
 	}
 
 #engpic {	
-	 border: 2px solid;
+	border: 5px solid;
     border-radius: 10px;	
 	width:430px;
 	height:300px;
 	margin-top:50px;
-	margin-right:-50px;
+	float:right;
+	padding:0px;
 	}
 
 #matpic {	
-	 border: 2px solid;
+	border: 5px solid;
     border-radius: 10px;	
 	width:430px;
 	height:300px;
 	margin-top:50px;
-	margin-right:-50px;
+	float:right;
+	padding:0px;
 	}
 
 	
